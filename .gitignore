@@ -1,0 +1,34 @@
+# Dependencies
+ngo-manager/node_modules/
+
+# Next.js
+ngo-manager/.next/
+ngo-manager/out/
+
+# Build
+ngo-manager/build/
+
+# Env files — NEVER commit these
+ngo-manager/.env
+ngo-manager/.env.local
+ngo-manager/.env*.local
+
+# Prisma local DB
+ngo-manager/prisma/dev.db
+ngo-manager/generated/
+
+# Test results
+ngo-manager/test-results/
+ngo-manager/playwright-report/
+ngo-manager/coverage/
+
+# OS
+.DS_Store
+**/.DS_Store
+
+# TypeScript
+ngo-manager/*.tsbuildinfo
+ngo-manager/next-env.d.ts
+
+# Logs
+*.log
