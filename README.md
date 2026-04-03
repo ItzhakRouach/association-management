@@ -87,35 +87,7 @@ npm run dev
 > **חשוב:** קובץ `.env.local` כלול ב-`.gitignore` ולעולם לא יועלה ל-GitHub.  
 > ה-`.env.example` הוא הדגמה בלבד — ללא ערכים אמיתיים.
 
----
 
-## העלאה ל-GitHub
-
-### העלאה ראשונה
-
-```bash
-# 1. אתחול git (אם עוד לא)
-git init
-
-# 2. הוספת כל הקבצים (ה-.gitignore כבר מגן על .env.local)
-git add .
-git commit -m "first commit"
-
-# 3. יצירת repository ב-GitHub (דרך האתר) ואז:
-git remote add origin https://github.com/YOUR_USERNAME/ngo-manager.git
-git branch -M main
-git push -u origin main
-```
-
-### עדכונים שוטפים
-
-```bash
-git add .
-git commit -m "תיאור השינוי"
-git push
-```
-
-> **לפני כל push:** ודא שהרצת `git status` ואין שם קבצי `.env` — הם **לא** אמורים להיות מועלים.
 
 ## סטאק טכנולוגי
 
